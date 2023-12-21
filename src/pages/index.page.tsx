@@ -1,6 +1,2 @@
-// Pagina principal do projeto.
-import { Heading } from '@ignite-ui/react'
-
-export default function Home() {
-  return <Heading as="h1">Enviar</Heading>
-}
+// Configuração para exportar o default para o arquivo principal index.tsx
+export { default } from './home'
