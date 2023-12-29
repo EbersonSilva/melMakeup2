@@ -4,7 +4,7 @@ export const HeaderContainer = styled('header', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  border: '1px solid red',
+  // border: '1px solid red',
   color: '$gray100',
   padding: '1.5rem',
   position: 'fixed',

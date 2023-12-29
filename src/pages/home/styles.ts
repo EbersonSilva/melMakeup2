@@ -1,9 +1,9 @@
 import { styled } from '@stitches/react'
 
-export const Container = styled('main',{
+export const Container = styled('main', {
   maxWidth: 1200,
   margin: 'auto',
-  border: '1px solid yellow',
+  // border: '1px solid yellow',
 })
 
 export const Section = styled('section', {
@@ -13,7 +13,6 @@ export const Section = styled('section', {
   gap: '5rem',
   height: '100vh',
   // border: '1px solid red',
-
 })
 export const Hero = styled('div', {
   maxWidth: 480,
@@ -23,11 +22,10 @@ export const Hero = styled('div', {
   h1: {
     fontSize: '3rem',
   },
-  text:{
+  text: {
     fontSize: '1.5rem',
-  }
+  },
 })
 export const Preview = styled('div', {
   // border: '1px solid red',
 })
-
