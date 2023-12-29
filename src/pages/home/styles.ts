@@ -1,26 +1,33 @@
-import { styled, Heading, Text } from '@ignite-ui/react'
+import { styled } from '@stitches/react'
 
-export const Container = styled('div', {
+export const Container = styled('main',{
   maxWidth: 1200,
+  margin: 'auto',
+  border: '1px solid yellow',
+})
+
+export const Section = styled('section', {
   display: 'flex',
   alignItems: 'center',
   margin: 'auto',
-  gap: '$20',
+  gap: '5rem',
   height: '100vh',
+  // border: '1px solid red',
+
 })
 export const Hero = styled('div', {
   maxWidth: 480,
-  padding: '0 $10',
+  padding: '2rem',
+  // border: '1px solid red',
 
-  [`${Heading}`]: {
-    '@media(max-width: 600px': {
-      fontSize: '$6xl',
-    },
+  h1: {
+    fontSize: '3rem',
   },
-
-  [`${Text}`]: {
-    marginTop: '$2',
-    color: '$gray200',
-  },
+  text:{
+    fontSize: '1.5rem',
+  }
 })
-export const Preview = styled('div', {})
+export const Preview = styled('div', {
+  // border: '1px solid red',
+})
+
