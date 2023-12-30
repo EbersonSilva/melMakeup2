@@ -4,11 +4,12 @@ export const HeaderContainer = styled('header', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  // border: '1px solid red',
+  background: '#202024',
   color: '$gray100',
   padding: '1.5rem',
   position: 'fixed',
   width: '100%',
+  zIndex: '1',
 })
 
 export const HeaderLogo = styled('span', {

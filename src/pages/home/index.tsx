@@ -5,11 +5,12 @@ import Image from 'next/image'
 
 import previewImage from '../../assets/home.png'
 import { Carousel } from '@/components/carousel'
+import { Testimonials } from '@/components/testimonials'
 
 export default function Home() {
   return (
     <Container>
-      {/* <Section>
+      <Section>
         <Hero>
           <h1>Realce sua beleza</h1>
           <text>
@@ -48,8 +49,9 @@ export default function Home() {
             tenetur fugiat dicta nobis deleniti?
           </text>
         </Hero>
-      </Section> */}
+      </Section>
       <Carousel />
+      <Testimonials />
     </Container>
   )
 }
