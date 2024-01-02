@@ -1,20 +1,28 @@
-import { FacebookLogo, InstagramLogo, TwitterLogo } from '@phosphor-icons/react'
-import { ContainerFooter } from './styles'
+import {
+  Dot,
+  FacebookLogo,
+  InstagramLogo,
+  TwitterLogo,
+} from '@phosphor-icons/react'
+
+import { ContainerFooter, NavLinks, SocialMedia } from './styles'
 import Link from 'next/link'
 
 export function Footer() {
   return (
     <ContainerFooter>
-      <div>
-        <InstagramLogo size={32} color="#e1e1e6" />
-        <FacebookLogo size={32} color="#e1e1e6" />
-        <TwitterLogo size={32} color="#e1e1e6" />
-      </div>
-      <div>
-        <Link href="">Teste</Link>
-        <Link href="">Teste</Link>
-        <Link href="">Teste</Link>
-      </div>
+      <SocialMedia>
+        <InstagramLogo size={24} color="#e1e1e6" />
+        <FacebookLogo size={24} color="#e1e1e6" />
+        <TwitterLogo size={24} color="#e1e1e6" />
+      </SocialMedia>
+      <NavLinks>
+        <Link href="">Inicio</Link>
+        <Dot />
+        <Link href="">Sobre</Link>
+        <Dot />
+        <Link href="">Portfolio</Link>
+      </NavLinks>
     </ContainerFooter>
   )
 }
