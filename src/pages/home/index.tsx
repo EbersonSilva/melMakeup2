@@ -14,10 +14,10 @@ export default function Home() {
         <Hero>
           <h1>Realce sua beleza</h1>
           <text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            perspiciatis obcaecati molestias quidem explicabo corporis nobis
-            beatae unde! Quas quisquam modi, deserunt quis distinctio itaque
-            tenetur fugiat dicta nobis deleniti?
+            Realce sua beleza única com a arte da maquiagem. Descubra a magia
+            dos pincéis e cores em cada traço, transformando cada detalhe em uma
+            expressão autêntica da sua personalidade. Deixe-me ser sua aliada na
+            busca pela confiança e empoderamento através da beleza.
           </text>
         </Hero>
         <Preview>
@@ -43,10 +43,22 @@ export default function Home() {
         <Hero>
           <h1>Sobre</h1>
           <text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            perspiciatis obcaecati molestias quidem explicabo corporis nobis
-            beatae unde! Quas quisquam modi, deserunt quis distinctio itaque
-            tenetur fugiat dicta nobis deleniti?
+            <p>
+              Desde 2019 atuo como maquiadora profissional na área da beleza.
+            </p>
+            <p>
+              Formada como maquiadora profissional pela embellezze,
+              especializada em colorimetria pela Nathália Teodoro, com
+              aperfeiçoamento pela kimberly Santos, especializações com
+              maquiadores renomados como Letícia de Paula, Bianca sobral, para
+              estar adepta a atender todas as clientes em todas tonalidades de
+              pele e característica Faço atendimento personalizado para dias
+              importantes e de acordo com a necessidade de cada cliente.
+            </p>
+            <p>
+              Exaltando a beleza única de cada mulher. Tornando-as ainda mais
+              bonitas através da minha arte.
+            </p>
           </text>
         </Hero>
       </Section>

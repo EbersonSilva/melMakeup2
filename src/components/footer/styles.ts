@@ -8,10 +8,9 @@ export const ContainerFooter = styled('footer', {
   flexDirection: 'column',
   padding: '4rem',
   gap: 8,
-  
 })
 
-export const SocialMedia = styled('div',{
+export const SocialMedia = styled('div', {
   display: 'flex',
   gap: 8,
 })
@@ -20,11 +19,9 @@ export const NavLinks = styled('div', {
   display: 'flex',
   gap: 8,
   alignItems: 'center',
-  
-  a:{
+
+  a: {
     textDecoration: 'none',
     color: '#e1e1e6',
-    
-
-  }
+  },
 })

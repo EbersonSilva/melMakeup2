@@ -23,7 +23,7 @@ export const Hero = styled('div', {
     fontSize: '3rem',
   },
   text: {
-    fontSize: '1.5rem',
+    fontSize: '1rem',
   },
 })
 export const Preview = styled('div', {
